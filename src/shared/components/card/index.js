@@ -24,7 +24,7 @@ const Card = ({
         ...rootStyle,
         width,
         height,
-        borderRadius: 2,
+        borderRadius: 2.1,
         background: type === CARD_TYPES.PLAYING_CARD ? '#fff' :
           disabled
             ? '#444444'
